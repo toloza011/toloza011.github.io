@@ -6,6 +6,8 @@ const grid = new Muuri('.grid',{
 
 
 
+
+
 //Buscador de proyectos
 
 filter = document.querySelector('#input-proyectos');

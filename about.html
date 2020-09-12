@@ -19,6 +19,34 @@
     <div class="main">
         <header>
             <nav>
+                <div id="menuToggle">
+                    <!--
+                    A fake / hidden checkbox is used as click reciever,
+                    so you can use the :checked selector on it.
+                    -->
+                    <input type="checkbox" />
+                    
+                    <!--
+                    Some spans to act as a hamburger.
+                    
+                    They are acting like a real hamburger,
+                    not that McDonalds stuff.
+                    -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <!--
+                    Too bad the menu has to be inside of the button
+                    but hey, it's pure CSS magic.
+                    -->
+                    <ul id="menu">
+                      <a href="index.html"><li>Home</li></a>
+                      <a href="proyectos.html"><li>Proyectos</li></a>
+                      <a href="about.html"><li>Sobre mí</li></a>
+                      <a href="contacto.html"><li>Contacto</li></a>
+                    </ul>
+                  </div>
                 <div class="logo">
                    <a href="index.html">ETM</a> 
                 </div>
@@ -31,13 +59,13 @@
                     </ol>
                 </div>
                 <div class="social">
-                    <a href="">
+                    <a href="https://www.facebook.com/esteban.toloza.5">
                         <div class="icon-social"><i class="fa fa-facebook"></i></div>
                     </a>
-                    <a href="">
+                    <a href="https://twitter.com/tebi_mendez">
                         <div class="icon-social"><i class="fa fa-twitter"></i></div>
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/estebantolozx/?hl=es-la">
                         <div class="icon-social"><i class="fa fa-instagram"></i></div>
                     </a>
                 </div>
@@ -48,7 +76,7 @@
                 <div class="info">
                    <div class="sobre-mi">
                     <h1>Sobre Mi</h1>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, qui. Unde, quo sed ex voluptatibus tenetur ipsa quos quisquam incidunt voluptates sapiente tempora modi deserunt ipsam? Porro laudantium harum consequatur.
+                    Mi nombre es Esteban Toloza y tengo 21 años, soy estudiante universitario y me gustaria vivir del desarrollo web.
                    </div>
                    <div class="skills">
                        <h1>Mis Habilidades</h1>
@@ -59,21 +87,13 @@
                             <li>CSS</li>
                             <li>PHP 7</li>
                             <li>Laravel</li>
-                            <li>Javascript</li>
-                            <li>ReactJs</li>
-                            <li>NodeJs</li>
-                            <li>Angular</li>
+                           
                         </ul>
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>PHP 7</li>
-                            <li>Laravel</li>
                             <li>Javascript</li>
                             <li>ReactJs</li>
                             <li>NodeJs</li>
                             <li>Angular</li>
-                            
                         </ul>
                        </div>
                       

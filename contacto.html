@@ -18,6 +18,34 @@
     <div class="main">
         <header>
             <nav>
+                <div id="menuToggle">
+                    <!--
+                    A fake / hidden checkbox is used as click reciever,
+                    so you can use the :checked selector on it.
+                    -->
+                    <input type="checkbox" />
+                    
+                    <!--
+                    Some spans to act as a hamburger.
+                    
+                    They are acting like a real hamburger,
+                    not that McDonalds stuff.
+                    -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <!--
+                    Too bad the menu has to be inside of the button
+                    but hey, it's pure CSS magic.
+                    -->
+                    <ul id="menu">
+                      <a href="index.html"><li>Home</li></a>
+                      <a href="proyectos.html"><li>Proyectos</li></a>
+                      <a href="about.html"><li>Sobre mí</li></a>
+                      <a href="contacto.html"><li>Contacto</li></a>
+                    </ul>
+                  </div>
                 <div class="logo">
                    <a href="index.html">ETM</a> 
                 </div>
@@ -30,13 +58,13 @@
                     </ol>
                 </div>
                 <div class="social">
-                    <a href="https://www.facebook.com">
+                    <a href="https://www.facebook.com/esteban.toloza.5">
                         <div class="icon-social"><i class="fa fa-facebook"></i></div>
                     </a>
-                    <a href="https://www.twitter.com">
+                    <a href="https://twitter.com/tebi_mendez">
                         <div class="icon-social"><i class="fa fa-twitter"></i></div>
                     </a>
-                    <a href="https://www.instagram.com">
+                    <a href="https://www.instagram.com/estebantolozx/?hl=es-la">
                         <div class="icon-social"><i class="fa fa-instagram"></i></div>
                     </a>
                 </div>
