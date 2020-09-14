@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
     <title>Portafolio - Esteban Toloza</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap" rel="stylesheet">
@@ -24,7 +26,7 @@
                     so you can use the :checked selector on it.
                     -->
                     <input type="checkbox" />
-                    
+
                     <!--
                     Some spans to act as a hamburger.
                     
@@ -34,20 +36,28 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    
+
                     <!--
                     Too bad the menu has to be inside of the button
                     but hey, it's pure CSS magic.
                     -->
                     <ul id="menu">
-                      <a href="index.html"><li>Home</li></a>
-                      <a href="proyectos.html"><li>Proyectos</li></a>
-                      <a href="about.html"><li>Sobre mí</li></a>
-                      <a href="contacto.html"><li>Contacto</li></a>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="proyectos.html">
+                            <li>Proyectos</li>
+                        </a>
+                        <a href="about.html">
+                            <li>Sobre mí</li>
+                        </a>
+                        <a href="contacto.html">
+                            <li>Contacto</li>
+                        </a>
                     </ul>
-                  </div>
+                </div>
                 <div class="logo">
-                   <a href="index.html">ETM</a> 
+                    <a href="index.html">ETM</a>
                 </div>
                 <div class="menu">
                     <ol>
@@ -75,114 +85,93 @@
                 <h2>Mis proyectos</h2>
             </div>
             <div class="des-proyectos">
-               <p>Estos son mis proyectos mas destacados y de los que mas me enorgullezco.</p> 
+                <p>Estos son mis proyectos mas destacados y de los que mas me enorgullezco.</p>
             </div>
             <div class="search-proyectos">
-                <form action="" method="get">
-                <input type="text" id="input-proyectos" class="input-proyectos" placeholder="Busca el proyecto que mas te guste">
-                <button class="btn-search" type="submit"><i class="fa fa-search"></i></button>
-                </form>
+            <form id="form-search">
+                <input type="text" id="input-proyectos" class="input-proyectos"
+                    placeholder="Busca el proyecto que mas te guste">
+                <button class="btn-search" ><i class="fa fa-search"></i></button>
+            </form>
+            </div>
+            <div class="not-found" style="margin-top:30px ;">
+                <h1>No hay resultados para tu busqueda: </h1>
+                <h4 style="text-align: center; font-size: 30px;"></h4>
+                 <img src="img/img-404.png" alt="">
             </div>
             <div class="list-proyectos">
+               
                 <div class="card-proyecto">
                     <div class="data-proyecto">
                         <div class="title">
-                            <h1>Mi Portafolio</h1>
-                         </div>
-                         <div class="tecnologias">
+                            <h1 class="titulo">Mi Portafolio</h1>
+                        </div>
+                        <div class="tecnologias">
                             <ul>
                                 <li> Html</li>
                                 <li> Css</li>
                                 <li> Js</li>
+                                <li> PHP</li>
                             </ul>
-                            <button class="btn-contact">Ver Proyecto</button>
-                         </div>
+                            <a href="proyectos/web/portafolio.html"><button  class="btn-contact">Ver Proyecto</button></a>
+                        </div>
                     </div>
-                     <div class="img-proyecto">
+                    <div class="img-proyecto">
                         <img src="img/Portafolio.png" alt="Portafolio">
-                     </div>
+                    </div>
                 </div>
                 <div class="card-proyecto">
                     <div class="data-proyecto">
                         <div class="title">
-                            <h1>Te Lo Regalo</h1>
-                         </div>
-                         <div class="tecnologias">
+                            <h1 class="titulo">Te Lo Regalo</h1>
+                        </div>
+                        <div class="tecnologias">
                             <ul>
                                 <li> Html</li>
                                 <li> Css</li>
                                 <li> Laravel</li>
                             </ul>
-                            <button class="btn-contact">Ver Proyecto</button>
-                         </div>
-                         
+                          <a href="proyectos/web/teloregalo.html"><button class="btn-contact">Ver Proyecto</button></a>  
+                        </div>
                     </div>
-                     <div class="img-proyecto">
-                        <img src="img/teloregalo.png" alt="">
-                     </div>
+                    <div class="img-proyecto">
+                        <img src="img/teloregalo.png" alt="TELOREGALO">
+                    </div>
 
                 </div>
                 <div class="card-proyecto">
                     <div class="data-proyecto">
                         <div class="title">
-                            <h1>Tolowebs</h1>
-                         </div>
-                         <div class="tecnologias">
+                            <h1 class="titulo">Tolowebs</h1>
+                        </div>
+                        <div class="tecnologias">
                             <ul>
                                 <li> Html</li>
                                 <li> Css</li>
                                 <li>Js</li>
                                 <li> Laravel</li>
                             </ul>
-                            <button class="btn-contact">Ver Proyecto</button>
-                         </div>
+                           <a href="proyectos/web/tolowebs.html"><button class="btn-contact">Ver Proyecto</button></a> 
+                        </div>
                     </div>
-                     <div class="img-proyecto">
+                    <div class="img-proyecto">
                         <img src="img/Tolowebs.png" alt="Tolowebs.com">
-                     </div> 
-                </div>
-                <div class="card-proyecto">
-                    <div class="data-proyecto">
-                        <div class="title">
-                            <h1>Te Lo Regalo</h1>
-                         </div>
-                         <div class="tecnologias">
-                            <ul>
-                                <li> Html</li>
-                                <li> Css</li>
-                                <li> Laravel</li>
-                            </ul>
-                            <button class="btn-contact">Ver Proyecto</button>
-                         </div>
                     </div>
-                     <div class="img-proyecto">
-                        <img src="img/teloregalo.png" alt="">
-                     </div> 
                 </div>
-                <div class="card-proyecto">
-                    <div class="data-proyecto">
-                        <div class="title">
-                            <h1>Te Lo Regalo</h1>
-                         </div>
-                         <div class="tecnologias">
-                            <ul>
-                                <li> Html</li>
-                                <li> Css</li>
-                                <li> Laravel</li>
-                            </ul>
-                            <button class="btn-contact">Ver Proyecto</button>
-                         </div>
-                    </div>
-                     <div class="img-proyecto">
-                        <img src="img/teloregalo.png" alt="">
-                     </div> 
-                </div>
-                
             
             </div>
+            <div class="loading">
+                <div class="lds-facebook"><div></div><div></div><div></div></div>
+            </div>
+            <div class="filtrados">
+                
+            </div>
+           
         </div>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
 <script src="js/main.js"></script>

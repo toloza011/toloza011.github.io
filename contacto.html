@@ -74,18 +74,22 @@
             <div class="form-contacto">
                 <h1>Contacto</h1>
                 <i class="fa fa-phone fa-5x"></i>
-               <form action="" class="formu" method="post">
+               <form action="backend/correo.php" class="formu" method="post">
                    <div class="form-group">
                        <label for="nombre">Nombre</label>
-                       <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" class="input-nombre" >
+                       <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre" class="input-nombre" >
                    </div>
                    <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Ingrese su email" class="input-email" >
+                    <input type="email" name="email" id="email" required placeholder="Ingrese su email" class="input-email" >
                   </div>
                   <div class="form-group">
                     <label for="numero">Telefono</label>
-                    <input type="tel" name="numero" maxlength="11" id="numero" pattern="[0-9]{9}" placeholder="Ingrese su numero" class="input-numero" >
+                    <input type="tel" name="numero" maxlength="11" required id="numero" pattern="[0-9]{9}" placeholder="Ingrese su numero" class="input-numero" >
+                  </div>
+                  <div class="form-group">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea name="mensaje" name="mensaje" id="" cols="30" required rows="2"></textarea>
                   </div>
                   <div class="form-group">
                       <button class="btn-form">Enviar</button>

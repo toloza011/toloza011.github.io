@@ -1,2 +1,1 @@
-# portafolio
-Portafolio de mis proyectos de desarrollo web.
+PORTAFOLIO DE MIS PROYECTOS DE DESARROLLO WEB
